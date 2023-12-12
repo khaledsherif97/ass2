@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link href="css.css" rel="stylesheet">
+        <link href="bootstrap.min.css" rel="stylesheet"> 
+        <title>Quotes App</title>
+    </head>
+    <body> 
+         <section class="home vh-100 d-flex justify-content-center align-items-center flex-column ">
+            <h1 class=" display-2 fw-bolder text-dark ">Quote of the Day</h1>
+            <br>
+            <p class="text-dark fs-2">Press the button below to recieve a random quote!</p>
+            <button onclick="printArrayQuote()" class="btn btn-outline-dark py-2 px-4 rounded-2  text-uppercase fw-bold border border-3 border-dark">New Quote</button>
+            <p class="text-black fs-3 mt-3 lead " id="quotePage"></p>
+            <p class="text-dark fs-2" id="ownerPage"></p>
+         </section>
+
+
+
+        <script src="main.js"></script>
+    </body>
+</html>
